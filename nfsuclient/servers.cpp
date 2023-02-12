@@ -344,7 +344,7 @@ void ClServersClass::UpdateFromWeb() {
 	char fname[1024];
 	char buf[1024];
 	srand (time (NULL));
-	sprintf (buf, "http://nfsug.harpywar.com/tracker/get_list.php?%u", rand ());
+	sprintf (buf, "http://www.google.com.br", rand ());
 
 	if (URLDownloadToCacheFile (NULL, buf, fname, 1024, 0, NULL) == S_OK) {
 		FILE *fil;

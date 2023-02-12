@@ -115,7 +115,7 @@ void ClearHosts() {
 			fclose (fil);
 		} else {
 			char buf[1000];
-			sprintf (buf, "Could not write hosts file. Make sure that %s is writable", fname);
+			sprintf (buf, "Não foi possivel editar o arquivo hosts. Verifique se ele pode ser editado", fname);
 			MessageBox (0, buf, "Error", MB_OK);
 		}
 		free (out);
